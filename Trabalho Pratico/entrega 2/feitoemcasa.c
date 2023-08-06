@@ -1,5 +1,3 @@
-// Exercicio 1700 LEET 
-
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -18,9 +16,6 @@ int countStudents(int* students, int studentsSize, int* sandwiches, int sandwich
       sandwich[i] = sandwiches[i];
   }
 
-
-
-  
   while (studentsSize > 0 && count < studentsSize) {
     // verificando se o primeiro estudante da fila gosta do primeiro sanduiche
     if (student[0] == sandwich[0]) {
@@ -60,10 +55,7 @@ int main() {
   if(result == 0){
     printf("Nao sobrou nenhum estudante sem lanche\n");
   }else{
-    
-  
-  printf("Sobraram %d estudantes sem lanche\n", result);
+     printf("%d estudante(s) sobrou(ram) sem lanche.\n", result);
   }
   return 0;
 }
-
