@@ -1,0 +1,1 @@
+este é o exercicio 347 do leet code : Top K Frequent Elements e eu sou o aluno Caio da disciplina de AED 1(TURMA M2), fiz ele na aula de sexta feira como um teste prático. era um exercício de retornar um array com a maior frequencia, e eu resolvi ele criando um array secundario, com valores e frequencias, e posteriormente ordenando ele por meio do quicksort.
